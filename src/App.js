@@ -3,6 +3,8 @@ import Home from './components/home/Home';
 import './App.css';
 import About from './components/about/About';
 import Skill from './components/skills/Skill';
+import Services from './components/services/Services';
+import Qualification from './components/qualification/Qualification';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Home />
         <About />
         <Skill />
+        <Services />
+        <Qualification />
       </main>
     </>
   );
